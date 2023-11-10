@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="7.352">
+    <testcase classname="Register HotelWeb Account" name="Register user on HotelWeb" time="3.972">
+        <system-out><![CDATA[Given Page 'https://hotel-testlab.coderslab.pl/en/' opened in browser.......passed
+When Button SignIn clicked..................................................passed
+And Email filled and ENTER pushed...........................................passed
+And form filled with Arek,Krzyk,erjuiwshjrfuiwj.............................passed
+And Button Register clicked.................................................passed
+Then Check if account created...............................................passed
+And Save screenshot.........................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Register HotelWeb Account" name="Register user on HotelWeb 2" time="3.292">
+        <system-out><![CDATA[Given Page 'https://hotel-testlab.coderslab.pl/en/' opened in browser.......passed
+When Button SignIn clicked..................................................passed
+And Email filled and ENTER pushed...........................................passed
+And form filled with Janusz,Kowalski,rwr3rsfse..............................passed
+And Button Register clicked.................................................passed
+Then Check if account created...............................................passed
+And Save screenshot.........................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
